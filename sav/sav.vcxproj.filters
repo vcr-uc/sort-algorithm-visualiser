@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\sort\bar_handler.cpp">
+      <Filter>src\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sort\algorithms\algorithm.cpp">
+      <Filter>src\sort\algorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ee60cbaa-c0fd-4737-9b8e-ae5b66b80e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sort">
+      <UniqueIdentifier>{472d01f9-42f7-40ba-8e1b-85c634788766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sort\algorithms">
+      <UniqueIdentifier>{a18268d0-d6bf-41bf-be48-02f5446636f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\sort\bar_handler.h">
+      <Filter>src\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sort\algorithms\algorithm.h">
+      <Filter>src\sort\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sort\bar.h">
+      <Filter>src\sort</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
