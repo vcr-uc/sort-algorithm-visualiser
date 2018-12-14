@@ -1,10 +1,10 @@
 # Sort Algorithm Visualiser (SAV)
 
-## Note
-This program is not a good example of design
-patterns. This program was rushed, has poor
-muti-threading implementation and lacks OOP
-design patterns.
-Thank you.
+## About
+Sort Algorithm Visualiser (SAV) is a quick project I created whilst testing out SFML2. The purpose is to graphically represent different sorting algorithms.
 
+## Note
+This program is poorly designed. Multi-threading is poorly implemented and there are some parts in the code I am not happy with, however, I wanted to release this now as I never intended on working on it for long.
+
+## SAV During Sort
 ![SAV mid sort](https://i.imgur.com/C9eWQXE.png)
